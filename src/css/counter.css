@@ -1,0 +1,23 @@
+.counter {
+    display: inline-block;
+    border-radius: 8px;
+    
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .counter-value {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .appCounter{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .singleCounter{
+    font-size: 16px;
+    text-align: center;
+  }

@@ -1,0 +1,81 @@
+.a{
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    background-image: url('	https://i0.wp.com/legpiece.in/wp-content/uploads/revslider/slide1/slide1.jpg?fit=1920%2C800&ssl=1');
+}
+.a-left{
+    flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     height: 100%;
+
+}
+.a-right{
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+
+.a-sub{
+    margin: 20px 0px;
+    font-weight: 700;
+    color: tomato;
+    font-size: 3rem;
+
+}
+.a-contact{
+    margin: 20px 0px;
+    font-weight: 400;
+    color: white;
+    font-size: 3rem;
+}
+.a-desc{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 18px;
+    text-align: inherit;
+
+}
+.a-under{
+    background: tomato;
+    height: 4px;
+    width: 10%;
+    border-radius: 2px;
+
+}
+.a-download{
+    text-decoration: none;
+    background-color: tomato;
+    margin: 15px 13px;
+    padding: 13px 13px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    width:20%;
+    cursor: pointer;
+    border: none;
+
+}
+.a-download:hover{
+    background-color: white;
+    color: tomato;
+
+}
+@media (min-width:300px) and (max-width: 430px) 
+{
+    .a{
+        flex-direction: column;
+        padding:15px;
+    }
+    .a-download{
+        width:40%;
+    }
+
+}

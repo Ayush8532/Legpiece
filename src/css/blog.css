@@ -1,0 +1,60 @@
+.blog{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6%;
+}
+.blogHeading p{
+    color: grey;
+}
+.food-card {
+    width: 20%; 
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .blogCart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .food-card button{
+    background-color: #efbc50;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+  .food-card button:hover{
+    background-color: white;
+    border: 1px solid #efbc50 ;
+    color:#efbc50 ;
+    transition: background-color 0.5s ease;
+  }
+  
+  .food-card img {
+    width: 100%;
+  }
+  
+  .food-card h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .food-card p {
+    margin: 0 0 1rem 0;
+  }
+  
+  @media  (min-width:300px) and (max-width: 430px) {
+    .blogCart{
+        flex-direction: column;
+    }
+    .food-card {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,15 @@
+.clients{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5% ;
+    margin-bottom: 3%;
+}
+
+@media  (min-width:300px) and (max-width: 430px)  {
+
+    .clients{
+        flex-direction: column;
+    }
+  }

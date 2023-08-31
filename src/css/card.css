@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;500&family=Poppins:wght@100;200;300;400;600&display=swap');
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 60vh;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px auto; /* Center the heading horizontally */
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color: #605e5e;
+  margin-bottom: 12px;
+}
+
+.card-button {
+  display: block;
+  margin: 0 auto; /* Center the button horizontally */
+  padding: 8px 12px;
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: rgb(5, 169, 169);
+  color: white;
+}
+
+
+@media  (min-width:300px) and (max-width: 430px)  {
+
+  .card{
+      height: 50vh;
+  }
+}

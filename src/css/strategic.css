@@ -1,0 +1,67 @@
+.about-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.about-details {
+  flex: 1;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.about-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.about-details h4 {
+  font-size:1;
+  line-height: 1.5;
+  color: grey;
+}
+
+.about-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: grey;
+}
+.about-details button {
+    background-color: rgba(255, 58, 45, 0.75);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 8vw;
+    color: white;
+    font-weight: bold;
+    margin: 4px 4px;
+    border: none;
+}
+.about-details button:hover{
+    background-color: white;
+    color: rgba(255, 58, 45, 0.75);
+    border: 1px solid rgba(255, 58, 45, 0.75);
+}
+.about-image {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media  (min-width:300px) and (max-width: 430px)  {
+
+    .about-details button{
+        width: 8rem;
+    }
+    .about-image{
+        display: none;
+    }
+  }

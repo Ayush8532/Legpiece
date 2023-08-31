@@ -1,0 +1,118 @@
+.bouquetContainer {
+    background-image: url('	https://i0.wp.com/legpiece.in/wp-content/uploads/revslider/slide1/slide1.jpg?fit=1920%2C800&ssl=1"');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    
+  }
+.bouquetHeading{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 22px;
+
+}
+
+.bouquetHeading1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.bouquetHeading2{
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+.icon.pink-icon {
+    color: tomato;
+  }
+
+  
+  .tabs .tab {
+    color: tomato; 
+  }
+  
+  .tabs .tab:hover {
+    color: white; 
+  }
+  
+  .tabs .tab.active {
+    color: white; 
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  .bouquet-icon{
+    font-size: 3rem;
+  }
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab.active {
+    border-bottom-color: tomato;
+  }
+  
+  .tab i {
+
+    font-size: 24px;
+  }
+
+  .dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dish {
+    display: none;
+    margin: 10px;
+  }
+  
+  .dish.active {
+    display: block;
+  }
+  
+  .dish img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media queries for responsiveness */
+  @media  (min-width:300px) and (max-width: 430px) {
+    .tabs {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .tab {
+      border-bottom: none;
+      margin-bottom: 10px;
+    }
+  
+    .dishes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .dish {
+      margin: 10px 0;
+    }
+  }

@@ -1,0 +1,30 @@
+.subfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .social-icons{
+    display: flex;
+
+
+  }
+  .social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  .firstMedia{
+    background-color: #242424;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+  }
