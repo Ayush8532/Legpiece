@@ -8,7 +8,8 @@ const Navbar = () => {
     <>
 <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
   <div className="container-fluid">
-    <img class="img-fluid logo-image ml-5 m-" width="20%" height="10%" src={Logo} alt="" />
+   <img className="img-fluid logo-image ml-5 m-" width="20%" height="10%" src={Logo} alt="" />
+     
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -30,13 +31,8 @@ const Navbar = () => {
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link to='/checkout' className="dropdown-item">Checkout</Link></li>
             <li><Link to='/cart' className="dropdown-item">Cart</Link></li>
-            <li><a className="dropdown-item" href="#">My Account</a></li>
+            <li><Link to='/account' className="dropdown-item">My Account</Link></li>
           </ul>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link" href="#">
-            <i className="fas fa-search"></i>
-          </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
@@ -44,14 +40,9 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link to='/login' className="nav-link">
             Login
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Register
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

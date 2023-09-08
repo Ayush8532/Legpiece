@@ -10,15 +10,15 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-    <footer class="footer">
-  <div class="footer-section">
+    <footer className="footer">
+  <div className="footer-section">
     <p>Call Now</p>
     <h2>+91 9897099921</h2>
     <h6>Get Special Email Offers</h6>   
     <div className='underline'></div>
     <input type="text"placeholder='Your email' /><button>Join Us</button>
   </div>
-  <div class="footer-section">
+  <div className="footer-section">
     <h3>Our Services</h3>
     <div className="underline"></div>
     <ul>
@@ -31,7 +31,7 @@ const Footer = () => {
       <li>Wishlist</li>
     </ul>
   </div>
-  <div class="footer-section">
+  <div className="footer-section">
     <h3>Our Story</h3>
     <div className="underline"></div>
     <ul>
@@ -41,7 +41,7 @@ const Footer = () => {
       <li>Privacy Policy</li>
     </ul>
   </div>
-  <div class="footer-section">
+  <div className="footer-section">
     <h3>Our Images</h3>
     <div className="underline"></div>
     <img src={footerimg1} alt="Image 1"/>

@@ -1,7 +1,6 @@
 .parentClass{
     background:url("	https://i0.wp.com/legpiece.in/wp-content/uploads/revslider/slide1/slide1.jpg?fit=1920%2C800&ssl=1");
     height: 100vh;
-    
     padding: 5%;
 }
 .subClass{
@@ -11,7 +10,7 @@
 
 .first{
     color: white;
-    font-size: 3rem ;
+    font-size: 2rem ;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -70,23 +69,24 @@
 .imageHeading{
     margin-left: 20px;
 }
- .imageHeading img{
-    height: 50vh;
+ .imageHeading img{ 
+    height: auto;
     margin: 20px 20px;
-    width: 25vw;
+    max-width: 100%;
  }
 
  .subChildclass{
     display: flex;
     flex-direction: row;
-    background-color: rgb(223, 217, 217);
-    justify-content: space-evenly;
-    margin: 10px auto;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
     height: fit-content;
  }
 .subChildclasses{
     margin: 10px auto;
     margin-top: 20px;
+    padding: 10px;
     display: flex;
     color: black;
 }
@@ -134,9 +134,9 @@
 
   @media  (min-width:300px) and (max-width: 430px)  {
 
-    .imageHeading img {
-        width: 100vw;
-        height: 100vw;
+    .imageHeading {
+        display: none;
+        background-color: aqua;
     }
     .header-button{
         width: 8rem;

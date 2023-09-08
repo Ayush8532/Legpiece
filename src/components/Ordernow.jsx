@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/ordernow.css";
+import { Link } from "react-router-dom";
 const Ordernow = () => {
   return (
     <>
@@ -17,9 +18,11 @@ const Ordernow = () => {
           <p className="a-desc">
           You are most welcome to place order with us with 100% confidence. We assure you the BEST & SAFEST meat delivery in Town. Our motto is High Quality & Freshness
           </p>
+          <Link to='/shop'>
           <button className="a-download">
               Buy Now
           </button>
+          </Link>
         </div>
       </div>
     </>

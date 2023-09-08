@@ -21,3 +21,8 @@
     font-size: 16px;
     text-align: center;
   }
+  @media  (min-width:300px) and (max-width: 430px) {
+.appCounter{
+  flex-direction: column;
+}
+  }

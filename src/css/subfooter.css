@@ -28,3 +28,9 @@
     align-items: center;
     text-align: center;
   }
+
+  @media  (min-width:300px) and (max-width: 430px) {
+    .subfooter{
+      flex-direction: column;
+    }
+  }

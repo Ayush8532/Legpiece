@@ -7,24 +7,24 @@ import "../css/contact.css";
 const Contact = () => {
   return (
     <>
-      <div class="contact-container">
-        <div class="contact-info">
+      <div className="contact-container">
+        <div className="contact-info">
           <p>
-            <i class="fas fa-map-marker-alt"></i>Legpiece India LLP, No1 Meat
+            <i className="fas fa-map-marker-alt"></i>Legpiece India LLP, No1 Meat
             Based Start-up
           </p>
           <p>
-            <i class="fas fa-map-marker-alt"></i> 70 Rajpur Road Near Madhuban,
+            <i className="fas fa-map-marker-alt"></i> 70 Rajpur Road Near Madhuban,
             Dehradun
           </p>
           <p>
-            <i class="fas fa-map-marker-alt"></i>+91 98970-99921
+            <i className="fas fa-map-marker-alt"></i>+91 98970-99921
           </p>
           <p>
-            <i class="fas fa-map-marker-alt"></i>mylegpiece@gmail.com
+            <i className="fas fa-map-marker-alt"></i>mylegpiece@gmail.com
           </p>
         </div>
-        <div class="contact-form">
+        <div className="contact-form">
           <h2>Send Your Request</h2>
           <p>we are committed to total transparency about our products.</p>
           <form>

@@ -1,0 +1,103 @@
+.procard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.procard img{
+    height: 70vh;
+    transition: transform 0.2s ease-in-out;
+}
+.procard img:hover{
+    transform: scale(1.2); 
+}
+.productIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.productcard-wrapper {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .product-content {
+    padding: 0rem;
+    margin-left: 20px;
+    width: 30%;
+  }
+
+  .purchase-info {
+    margin: 1.5rem 0;
+  }
+ 
+ .productbtn {
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    background-color: #f64749;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+  }
+   .productbtn {
+    cursor: pointer;
+    color: #fff;
+  }
+.purchase-info button{
+    cursor: pointer;
+}
+  
+  .productbtn:hover {
+    opacity: 0.9;
+    color: #f64749;
+    background-color: white;
+    border-color: #f64749;
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+  }
+  .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+  }
+  .social-links a:hover {
+    background: #000;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 400px)   {
+
+    .productDescription{
+        flex-direction: column;
+    }
+    .productcard-wrapper{
+        flex-direction: column;
+    }
+    .procard img{
+        margin-top: 20%;
+        height: 30vh;
+    }
+    .product-content{
+        width: fit-content;
+    }
+  }

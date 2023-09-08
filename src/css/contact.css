@@ -28,6 +28,7 @@
 
   }
   .contact-form form {
+
     display: grid;
     gap: 10px;
   }
@@ -56,4 +57,14 @@
     .contact-container {
       flex-direction: column;
     }
+    .contact-form input,
+  .contact-form textarea{
+    width: 100%;
+  
+  }
+  .contact-form button {
+    width: 50%;
+
+  }
+
   }

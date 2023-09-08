@@ -4,26 +4,26 @@ import "../css/subfooter.css";
 const Subfooter = () => {
   return (
     <>
-      <footer class="subfooter">
-        <div class="social-icons">
+      <footer className="subfooter">
+        <div className="social-icons">
           <div className="firstMedia">
             <a href="#">
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
           </div>
           <div className="firstMedia">
             <a href="#">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </div>
           <div className="firstMedia">
 
           <a href="#">
-            <i class="fab fa-youtube"></i>
+            <i className="fab fa-youtube"></i>
           </a>
           </div>
         </div>
-        <p class="copyright">Copyright 2022 © KFC India <span style={{"color":"#ed4f4f"}}>(Legpiece India |Meat Shop E-com)</span></p>
+        <p className="copyright">Copyright 2022 © KFC India <span style={{"color":"#ed4f4f"}}>(Legpiece India |Meat Shop E-com)</span></p>
         Designed By Brand Bhasha
       </footer>
     </>

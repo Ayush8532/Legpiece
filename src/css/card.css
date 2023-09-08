@@ -4,11 +4,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 10vh;
 }
 
 .card {
   height: 60vh;
   width: 300px;
+  text-align: center;
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
@@ -38,7 +40,7 @@
 
 .card-button {
   display: block;
-  margin: 0 auto; /* Center the button horizontally */
+  margin: 13px auto; /* Center the button horizontally */
   padding: 8px 12px;
   background-color: lightgrey;
   color: black;
